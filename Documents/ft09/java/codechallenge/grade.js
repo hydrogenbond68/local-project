@@ -12,7 +12,7 @@ function calculateGrade(marks) {
     }
 }function main() {
     while (true) {
-        let input =("Enter student marks (0-100):");
+        let input = prompt("Enter student marks (0-100):");
         let marks = parseFloat(input);
         if (!isNaN(marks) && marks >= 0 && marks <= 100) {
             let grade = calculateGrade(marks);
